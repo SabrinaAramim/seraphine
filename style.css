@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0;
+    /* background-image: linear-gradient(90deg, #ff69b4, white); */
+
+
+    background-size: 1458px;
+    background-position: center;
+
+    font-family: active, sans-serif;
+
+    .veil {
+        background-image: url(Seraphine.jpg);
+        z-index: -1;
+        background-color: #fff;
+        opacity: 0.3;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+    }
+}
+
+.topMenu {
+    background-image: linear-gradient(90deg, #ba89ff, #ff69b4);
+    display: flex;
+    align-items: center;
+    height: 135px;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    .home {
+        font-weight: 400;
+        font-style: normal;
+        display: inline;
+        font-size: 48px;
+        margin: 80px;
+    }
+
+    .imgHome {
+        margin-left: 6px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #daa520;
+        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+    }
+}
+
+.topMenuSpacing {
+    height: 132px;
+}
+
+.leftMenu {
+    height: 460px;
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 5px solid #b348ff;
+    box-shadow: 5px 4px 8px #000000;
+    position: fixed;
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #daa520;
+        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+    }
+
+    ul {
+        font-size: 28px;
+
+        li {
+            margin-left: 10px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.leftMenuSkins {
+    height: 65%;
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 5px solid #b348ff;
+    box-shadow: 5px 4px 8px #000000;
+    position: fixed;
+    overflow-y: auto;
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #daa520;
+        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+    }
+
+    ul {
+        font-size: 28px;
+
+        li {
+            margin-left: 10px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.leftMenuBuilds{
+    height: 61%;
+    width: 320px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 5px solid #b348ff;
+    box-shadow: 5px 4px 8px #000000;
+    position: fixed;
+    overflow-y: auto;
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #daa520;
+        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+    }
+
+    ul {
+        font-size: 28px;
+
+        li {
+            margin-left: 10px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.contents {
+    height: auto;
+    width: 1050px;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 28px;
+    text-align: justify;
+    text-indent: 30px;
+
+    section {
+        scroll-margin-top: 150px;
+        scroll-margin-left: 400px;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        background-color: rgb(188 83 243);
+        width: 1347px;
+    }
+
+    p {
+        width: 1347px;
+        margin: 5px;
+    }
+
+    h2 {
+        font-weight: 400;
+        text-decoration: underline rgb(188 83 243);
+    }
+
+    ul {
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .champions {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-left: 96px;
+            margin-bottom: 80px;
+        }
+    }
+
+    .piltovers {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-left: 50px;
+            margin-bottom: 80px;
+        }
+    }
+
+    .titleSkills {
+        display: flex;
+        align-items: center;
+        width: 1347px;
+
+        img {
+            position: absolute;
+            z-index: 2;
+            width: 50px;
+            margin-left: 475px;
+        }
+    }
+
+    .skills {
+        display: flex;
+        align-items: center;
+        height: 292px;
+
+        .skillsVideos {
+            margin-bottom: 0px;
+            text-indent: 0px;
+            border: 5px solid #ba89ff;
+            box-shadow: 5px 4px 8px #000000;
+        }
+
+        .explications {
+            p {
+                margin: 61px;
+                width: 860px;
+            }
+
+        }
+    }
+
+    .skins {
+        display: contents;
+        align-items: center;
+
+        img {
+            margin-left: 300px;
+        }
+
+    }
+    .gameplay{
+        iframe{
+            margin-left: 400px;
+        }
+        a{
+            color: #b348ff;
+        }
+    }
+    .build{
+        display: contents;
+        align-items: center;
+        img{
+            margin-left: 66px;
+        }
+    }
+}
+
+.baseboard {
+    background-image: linear-gradient(90deg, #ba89ff, #ff69b4);
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    margin-top: 50px;
+
+    h2 {
+        font-weight: 400;
+        font-style: normal;
+        display: inline;
+        font-size: 48px;
+        margin: 80px;
+    }
+
+    a {
+        margin-left: 250px;
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #daa520;
+        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+    }
+}
+.sobreMim{
+    h1{
+        text-align: center;
+        font-weight: 400;
+        background-color: rgb(188 83 243);
+        width: 100%;
+        font-size: 60px;
+    }
+    p{
+        font-size: 40px;
+        text-align: justify;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    img{
+        width: 800px;
+        margin-left: 550px;
+        margin-top: 20px;
+    }
+    ul{
+       font-size: 40px;
+        text-align: justify;
+        margin-left: 80px;
+        margin-right: 80px;
+
+        .lista{
+            text-decoration: underline;
+            color: #b348ff;
+        }
+    }
+}
