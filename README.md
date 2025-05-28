@@ -26,6 +26,10 @@ A ideia do site é homenagear a Seraphine, com um layout visualmente agradável 
 - HTML5
 - CSS3
 
+## 🔗 Acesse o site (caso já esteja publicado)
+
+[🔗 Clique aqui para ver o site](https://sabrinaaramim.github.io/seraphine/home/)  
+
 ## ✨ Autor
 
 Feito por Sabrina Aramim  
