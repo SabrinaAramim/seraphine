@@ -33,7 +33,7 @@ A ideia do site é homenagear a Seraphine, com um layout visualmente agradável 
 ## ✨ Autor
 
 Feito por Sabrina Aramim  
-GitHub: @SabrinaAramim (https://github.com/SabrinaAramim)
+GitHub: [@SabrinaAramim] (https://github.com/SabrinaAramim)
 
 ---
 
