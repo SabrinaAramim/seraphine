@@ -136,7 +136,7 @@ body {
     }
 }
 
-.leftMenuBuilds{
+.leftMenuBuilds {
     height: 61%;
     width: 320px;
     margin-top: 50px;
@@ -212,12 +212,32 @@ body {
     .champions {
         display: flex;
         align-items: center;
+        justify-content: space-around;
+        margin-left: 100px;
+        transition: 2s;
 
-        img {
-            margin-left: 96px;
-            margin-bottom: 80px;
+        p{
+            width: auto;
+            position: absolute;
+            transition: 1s;
         }
     }
+
+    .names-champions>p{
+        margin-top: -50px;
+        z-index: -1;
+        transition: 1s;
+    }
+
+    .names-champions:hover >p{
+        margin-top: 0px;
+    }
+
+    img:hover {
+        box-shadow: 5px 4px 7px black;
+        transition: 1s;
+    }
+
 
     .piltovers {
         display: flex;
@@ -272,18 +292,22 @@ body {
         }
 
     }
-    .gameplay{
-        iframe{
+
+    .gameplay {
+        iframe {
             margin-left: 400px;
         }
-        a{
+
+        a {
             color: #b348ff;
         }
     }
-    .build{
+
+    .build {
         display: contents;
         align-items: center;
-        img{
+
+        img {
             margin-left: 66px;
         }
     }
@@ -317,32 +341,36 @@ body {
         text-shadow: 2px 2px 4px rgb(9, 9, 9);
     }
 }
-.sobreMim{
-    h1{
+
+.sobreMim {
+    h1 {
         text-align: center;
         font-weight: 400;
         background-color: rgb(188 83 243);
         width: 100%;
         font-size: 60px;
     }
-    p{
+
+    p {
         font-size: 40px;
         text-align: justify;
         margin-left: 80px;
         margin-right: 80px;
     }
-    img{
+
+    img {
         width: 800px;
         margin-left: 550px;
         margin-top: 20px;
     }
-    ul{
-       font-size: 40px;
+
+    ul {
+        font-size: 40px;
         text-align: justify;
         margin-left: 80px;
         margin-right: 80px;
 
-        .lista{
+        .lista {
             text-decoration: underline;
             color: #b348ff;
         }
