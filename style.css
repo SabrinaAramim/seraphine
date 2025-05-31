@@ -8,7 +8,7 @@ body {
 
     font-family: active, sans-serif;
 
-    .veil {
+    /* .veil {
         background-image: url(Seraphine.jpg);
         z-index: -1;
         background-color: #fff;
@@ -20,7 +20,7 @@ body {
         background-repeat: no-repeat;
         top: 0;
         left: 0;
-    }
+    } */
 }
 
 .images {
@@ -514,10 +514,6 @@ body {
     }
 
     @media screen and (max-width: 450px) {
-
-        .veil{
-            display: none;
-        }
 
         .leftMenu {
             margin-left: -500px;
