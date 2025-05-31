@@ -3,9 +3,6 @@
 
 body {
     margin: 0;
-    /* background-image: linear-gradient(90deg, #ff69b4, white); */
-
-
     background-size: 1458px;
     background-position: center;
 
@@ -24,6 +21,14 @@ body {
         top: 0;
         left: 0;
     }
+}
+
+.images {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
 }
 
 .topMenu {
@@ -174,7 +179,7 @@ body {
 
 .contents {
     height: auto;
-    width: 1050px;
+    max-width: 1347px;
     margin-top: 50px;
     margin-left: 400px;
     font-size: 28px;
@@ -194,7 +199,6 @@ body {
     }
 
     p {
-        width: 1347px;
         margin: 5px;
     }
 
@@ -297,16 +301,12 @@ body {
     .skins {
         display: contents;
         align-items: center;
-
-        img {
-            margin-left: 300px;
-        }
-
     }
 
     .gameplay {
-        iframe {
-            margin-left: 400px;
+        .videosHyu {
+            display: flex;
+            justify-content: center;
         }
 
         a {
@@ -319,7 +319,7 @@ body {
         align-items: center;
 
         img {
-            margin-left: 66px;
+            margin:auto;
         }
     }
 }
@@ -384,6 +384,156 @@ body {
         .lista {
             text-decoration: underline;
             color: #b348ff;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .contents {
+        width: 1347px;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+
+    .leftMenu {
+        margin-left: -500px;
+    }
+
+    .leftMenuBuilds {
+        margin-left: -500px;
+    }
+
+    .leftMenuSkins {
+        margin-left: -500px;
+    }
+
+    .contents {
+        margin: auto;
+        width: 1000px;
+
+        h1 {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+
+        .leftMenu {
+            margin-left: -500px;
+        }
+
+        .leftMenuBuilds {
+            margin-left: -500px;
+        }
+
+        .leftMenuSkins {
+            margin-left: -500px;
+        }
+
+        .contents {
+            margin: auto;
+            width: 800px;
+
+            h1 {
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 895px) {
+
+        .leftMenu {
+            margin-left: -500px;
+        }
+
+        .leftMenuBuilds {
+            margin-left: -500px;
+        }
+
+        .leftMenuSkins {
+            margin-left: -500px;
+        }
+
+        .contents {
+            margin: auto;
+            width: 600px;
+
+            h1 {
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+
+        .leftMenu {
+            margin-left: -500px;
+        }
+
+        .leftMenuBuilds {
+            margin-left: -500px;
+        }
+
+        .leftMenuSkins {
+            margin-left: -500px;
+        }
+
+        .contents {
+            margin: auto;
+            width: 450px;
+
+            h1 {
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .leftMenu {
+            margin-left: -500px;
+        }
+
+        .leftMenuBuilds {
+            margin-left: -500px;
+        }
+
+        .leftMenuSkins {
+            margin-left: -500px;
+        }
+
+        .contents {
+            margin: auto;
+            width: 400px;
+
+            h1 {
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+
+        .leftMenu {
+            margin-left: -500px;
+        }
+
+        .leftMenuBuilds {
+            margin-left: -500px;
+        }
+
+        .leftMenuSkins {
+            margin-left: -500px;
+        }
+
+        .contents {
+            margin: auto;
+            width: 300px;
+
+            h1 {
+                width: 100%;
+            }
         }
     }
 }
