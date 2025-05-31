@@ -515,6 +515,10 @@ body {
 
     @media screen and (max-width: 450px) {
 
+        .veil{
+            display: none;
+        }
+
         .leftMenu {
             margin-left: -500px;
         }
