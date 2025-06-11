@@ -246,9 +246,7 @@ body {
 
     .piltovers {
         display: flex;
-        align-items: center;
         justify-content: space-around;
-        margin-left: 100px;
 
         p {
             color: black;
@@ -394,9 +392,10 @@ body {
     .contents {
         width: 1347px;
     }
+
     .names-champions:hover>p {
-            margin-top: 0px;
-        }
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 1770px) {
@@ -442,13 +441,21 @@ body {
     }
 
     .names-champions:hover>p {
-            margin-top: 0px;
+        margin-top: 0px;
+    }
+
+    .piltovers {
+        width: 1000px;
+
+        img {
+            width: 95px;
         }
+    }
 
     .baseboard {
         height: 75px;
 
-         a{
+        a {
             margin-left: 0px;
             font-size: 40px;
             display: flex;
@@ -457,164 +464,200 @@ body {
     }
 }
 
-    @media screen and (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
 
-        .leftMenu {
-            margin-left: -500px;
-        }
+    .leftMenu {
+        margin-left: -500px;
+    }
 
-        .leftMenuBuilds {
-            margin-left: -500px;
-        }
+    .leftMenuBuilds {
+        margin-left: -500px;
+    }
 
-        .leftMenuSkins {
-            margin-left: -500px;
-        }
+    .leftMenuSkins {
+        margin-left: -500px;
+    }
 
-        .contents {
-            margin: auto;
-            width: 800px;
+    .contents {
+        margin: auto;
+        width: 800px;
 
-            h1 {
-                width: 100%;
-            }
-        }
-
-        .champions {
-            width: 800px;
-
-            img {
-                width: 100px;
-            }
-        }
-
-        .names-champions:hover>p {
-            margin-top: 0px;
+        h1 {
+            width: 100%;
         }
     }
 
-    @media screen and (max-width: 895px) {
+    .champions {
+        width: 800px;
 
-        .topMenu {
-            height: 90px;
+        img {
+            width: 100px;
+        }
+    }
 
-            .home {
-                font-size: 30px;
-                display: flex;
-                justify-content: center;
-            }
+    .names-champions:hover>p {
+        margin-top: 0px;
+    }
 
-            .imgHome {
-                width: 80px;
-            }
+    .piltovers {
+        width: 800px;
+
+        img {
+            width: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 895px) {
+
+    .topMenu {
+        height: 90px;
+
+        .home {
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
         }
 
-
-        .leftMenu {
-            margin-left: -500px;
+        .imgHome {
+            width: 80px;
         }
+    }
 
-        .leftMenuBuilds {
-            margin-left: -500px;
+
+    .leftMenu {
+        margin-left: -500px;
+    }
+
+    .leftMenuBuilds {
+        margin-left: -500px;
+    }
+
+    .leftMenuSkins {
+        margin-left: -500px;
+    }
+
+    .contents {
+        margin: auto;
+        width: 600px;
+
+        h1 {
+            width: 100%;
         }
+    }
 
-        .leftMenuSkins {
-            margin-left: -500px;
+    .champions {
+        width: 600px;
+
+        img {
+            width: 70px;
         }
+    }
 
-        .contents {
-            margin: auto;
-            width: 600px;
+    .names-champions:hover>p {
+        margin-top: 0px;
+    }
 
-            h1 {
-                width: 100%;
-            }
-        }
+    .piltovers {
+        width: 600px;
+        flex-direction: column;
+        align-items: flex-start;
 
-        .champions {
-            width: 600px;
-
-            img {
-                width: 70px;
-            }
+        img {
+            width: 100px;
         }
 
         .names-champions:hover>p {
-            margin-top: 0px;
+            margin-top: -70px;
+            margin-left: 120px;
         }
+    }
 
-        .baseboard {
+    .baseboard {
         height: 75px;
 
-         a{
+        a {
             margin-left: 0px;
             font-size: 35px;
             display: flex;
             justify-content: center;
         }
     }
+}
+
+@media screen and (max-width: 700px) {
+
+    .topMenu {
+        height: 70px;
+
+        .home {
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .imgHome {
+            width: 60px;
+        }
     }
 
-    @media screen and (max-width: 700px) {
+    .topMenuSpacing {
+        height: 80px;
+    }
 
-        .topMenu {
-            height: 70px;
+    .leftMenu {
+        margin-left: -500px;
+    }
 
-            .home {
-                font-size: 25px;
-                display: flex;
-                justify-content: center;
-            }
+    .leftMenuBuilds {
+        margin-left: -500px;
+    }
 
-            .imgHome {
-                width: 60px;
-            }
+    .leftMenuSkins {
+        margin-left: -500px;
+    }
+
+    .contents {
+        margin: auto;
+        width: 450px;
+
+        h1 {
+            width: 100%;
         }
+    }
 
-        .topMenuSpacing {
-            height: 80px;
+    .champions {
+        width: 450px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        img {
+            width: 130px;
         }
+    }
 
-        .leftMenu {
-            margin-left: -500px;
-        }
+    .names-champions:hover>p {
+        margin-top: -90px;
+        margin-left: 160px;
+    }
+    .piltovers {
+        width: 450px;
+        flex-direction: column;
+        align-items: flex-start;
 
-        .leftMenuBuilds {
-            margin-left: -500px;
-        }
-
-        .leftMenuSkins {
-            margin-left: -500px;
-        }
-
-        .contents {
-            margin: auto;
-            width: 450px;
-
-            h1 {
-                width: 100%;
-            }
-        }
-
-        .champions {
-            width: 450px;
-            flex-direction: column;
-            align-items: flex-start;
-
-            img {
-                width: 130px;
-            }
+        img {
+            width: 90px;
         }
 
         .names-champions:hover>p {
-            margin-top: -90px;
-            margin-left: 160px;
+            margin-top: -70px;
+            margin-left: 120px;
         }
-
-        .baseboard {
+    }
+    .baseboard {
         height: 75px;
 
-         a{
+        a {
             margin-left: 0px;
             font-size: 30px;
             display: flex;
@@ -623,114 +666,114 @@ body {
     }
 }
 
-    @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
-        .topMenu {
-            height: 60px;
+    .topMenu {
+        height: 60px;
 
-            .home {
-                font-size: 20px;
-                display: flex;
-                justify-content: center;
-            }
-
-            .imgHome {
-                width: 50px;
-            }
+        .home {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
         }
 
-        .topMenuSpacing {
-            height: 60px;
+        .imgHome {
+            width: 50px;
         }
+    }
 
-        .leftMenu {
-            margin-left: -500px;
+    .topMenuSpacing {
+        height: 60px;
+    }
+
+    .leftMenu {
+        margin-left: -500px;
+    }
+
+    .leftMenuBuilds {
+        margin-left: -500px;
+    }
+
+    .leftMenuSkins {
+        margin-left: -500px;
+    }
+
+    .contents {
+        margin: auto;
+        width: 400px;
+
+        h1 {
+            width: 100%;
         }
+    }
 
-        .leftMenuBuilds {
-            margin-left: -500px;
+    .champions {
+        width: 400px;
+        flex-direction: column;
+
+        img {
+            width: 100px;
         }
+    }
 
-        .leftMenuSkins {
-            margin-left: -500px;
-        }
+    .names-champions:hover>p {
+        margin-top: -70px;
+        margin-left: 130px;
+    }
 
-        .contents {
-            margin: auto;
-            width: 400px;
-
-            h1 {
-                width: 100%;
-            }
-        }
-
-        .champions {
-            width: 400px;
-            flex-direction: column;
-
-            img {
-                width: 100px;
-            }
-        }
-
-        .names-champions:hover>p {
-            margin-top: -70px;
-            margin-left: 130px;
-        }
-
-        .baseboard {
+    .baseboard {
         height: 75px;
 
-         a{
+        a {
             margin-left: 0px;
             font-size: 25px;
             display: flex;
             justify-content: center;
         }
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    .leftMenu {
+        margin-left: -500px;
     }
 
-    @media screen and (max-width: 450px) {
+    .leftMenuBuilds {
+        margin-left: -500px;
+    }
 
-        .leftMenu {
-            margin-left: -500px;
+    .leftMenuSkins {
+        margin-left: -500px;
+    }
+
+    .contents {
+        margin: auto;
+        width: 300px;
+
+        h1 {
+            width: 100%;
         }
+    }
 
-        .leftMenuBuilds {
-            margin-left: -500px;
+    .champions {
+        width: 300px;
+        flex-direction: column;
+
+        img {
+            width: 100px;
         }
+    }
 
-        .leftMenuSkins {
-            margin-left: -500px;
-        }
+    .names-champions:hover>p {
+        margin-top: -70px;
+        margin-left: 130px;
+    }
 
-        .contents {
-            margin: auto;
-            width: 300px;
-
-            h1 {
-                width: 100%;
-            }
-        }
-
-        .champions {
-            width: 300px;
-            flex-direction: column;
-
-            img {
-                width: 100px;
-            }
-        }
-
-        .names-champions:hover>p {
-            margin-top: -70px;
-            margin-left: 130px;
-        }
-
-        .baseboard {
+    .baseboard {
         height: 75px;
 
-         a{
+        a {
             margin-left: 0px;
             font-size: 20px;
             display: flex;
