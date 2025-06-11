@@ -52,7 +52,8 @@ body {
     }
 
     .imgHome {
-        margin-top: 13px;
+        margin-top: 5px;
+        width: 80;
     }
 
     a {
@@ -399,7 +400,7 @@ body {
 @media screen and (max-width: 1770px) {
 
     .topMenu {
-        height: 100px;
+        height: 124px;
 
         .home {
             font-size: 40px;
@@ -408,7 +409,8 @@ body {
         }
 
         .imgHome {
-            width: 100px;
+            width: 120px;
+            margin-top: 2px;
         }
     }
 
