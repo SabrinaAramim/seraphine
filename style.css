@@ -7,20 +7,6 @@ body {
     background-position: center;
 
     font-family: active, sans-serif;
-
-    /* .veil {
-        background-image: url(Seraphine.jpg);
-        z-index: -1;
-        background-color: #fff;
-        opacity: 0.3;
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        top: 0;
-        left: 0;
-    } */
 }
 
 .images {
