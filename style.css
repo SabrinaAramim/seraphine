@@ -8,7 +8,7 @@ body {
 
     font-family: active, sans-serif;
 
-    .veil {
+    /* .veil {
         background-image: url(Seraphine.jpg);
         z-index: -1;
         background-color: #fff;
@@ -20,7 +20,7 @@ body {
         background-repeat: no-repeat;
         top: 0;
         left: 0;
-    }
+    } */
 }
 
 .images {
@@ -385,6 +385,20 @@ body {
 }
 
 @media screen and (max-width: 1920px) {
+.veil{
+    background-image: url(Seraphine.jpg);
+        z-index: -1;
+        background-color: #fff;
+        opacity: 0.3;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+}
+
     .contents {
         width: 1347px;
     }
@@ -393,8 +407,8 @@ body {
         margin-top: 0px;
     }
 
-    .titleSkills{
-        img{
+    .titleSkills {
+        img {
             width: 50px;
         }
     }
@@ -464,8 +478,8 @@ body {
         }
     }
 
-    .titleSkills{
-        img{
+    .titleSkills {
+        img {
             width: 0px;
         }
     }
@@ -485,6 +499,14 @@ body {
         img {
             width: 750px;
         }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .veil {
+        background-image: url(seraphine-me-2.png);
+        top: 55px;
+        left: -10px;
     }
 }
 
@@ -611,40 +633,46 @@ body {
         width: 600px;
         flex-direction: column;
         align-items: flex-start;
-        }
+    }
+}
+
+.baseboard {
+    height: 75px;
+
+    a {
+        margin-left: 0px;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.sobreMim {
+    p {
+        font-size: 20px;
     }
 
-    .baseboard {
-        height: 75px;
-
-        a {
-            margin-left: 0px;
-            font-size: 35px;
-            display: flex;
-            justify-content: center;
-        }
+    li {
+        font-size: 20px;
     }
 
-    .sobreMim {
-        p {
-            font-size: 20px;
-        }
-
-        li {
-            font-size: 20px;
-        }
-
-        h1 {
-            font-size: 40px;
-        }
-
-        img {
-            width: 600px;
-        }
+    h1 {
+        font-size: 40px;
     }
+
+    img {
+        width: 600px;
+    }
+}
 
 
 @media screen and (max-width: 700px) {
+
+.veil {
+        background-image: url(seraphine-pe.jpg);
+        top: 0px;
+        left: 0px;
+    }
 
     .topMenu {
         height: 70px;
@@ -798,25 +826,25 @@ body {
         width: 400px;
         flex-direction: column;
         align-items: flex-start;
-        }
     }
+}
 
-    .baseboard {
-        height: 75px;
+.baseboard {
+    height: 75px;
 
-        a {
-            margin-left: 0px;
-            font-size: 25px;
-            display: flex;
-            justify-content: center;
-        }
+    a {
+        margin-left: 0px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
     }
+}
 
-    .sobreMim {
-        img {
-            width: 400px;
-        }
+.sobreMim {
+    img {
+        width: 400px;
     }
+}
 
 @media screen and (max-width: 450px) {
     .topMenu {
