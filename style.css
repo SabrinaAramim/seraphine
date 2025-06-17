@@ -197,7 +197,6 @@ body {
         text-align: center;
         font-weight: 400;
         background-color: rgb(188 83 243);
-        width: 1347px;
     }
 
     p {
@@ -263,14 +262,12 @@ body {
     }
 
     .titleSkills {
-        display: flex;
+        display: inline;
         align-items: center;
-        width: 1347px;
 
         img {
             position: absolute;
             z-index: 2;
-            width: 50px;
             margin-left: 475px;
         }
     }
@@ -278,7 +275,6 @@ body {
     .skills {
         display: flex;
         align-items: center;
-        height: 292px;
 
         .skillsVideos {
             height: 272px;
@@ -290,8 +286,7 @@ body {
 
         .explications {
             p {
-                margin: 61px;
-                width: 860px;
+                margin: 30px;
             }
 
         }
@@ -397,6 +392,12 @@ body {
     .names-champions:hover>p {
         margin-top: 0px;
     }
+
+    .titleSkills{
+        img{
+            width: 50px;
+        }
+    }
 }
 
 @media screen and (max-width: 1770px) {
@@ -450,6 +451,22 @@ body {
 
         img {
             width: 95px;
+        }
+    }
+
+    .skills {
+        width: 1000px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .titleSkills{
+        img{
+            width: 0px;
         }
     }
 
@@ -511,6 +528,16 @@ body {
 
         img {
             width: 70px;
+        }
+    }
+
+    .skills {
+        width: 800px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        img {
+            width: 100px;
         }
     }
 }
@@ -580,6 +607,13 @@ body {
         }
     }
 
+    .skills {
+        width: 600px;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+    }
+
     .baseboard {
         height: 75px;
 
@@ -608,7 +642,7 @@ body {
             width: 600px;
         }
     }
-}
+
 
 @media screen and (max-width: 700px) {
 
@@ -679,6 +713,12 @@ body {
             margin-top: -70px;
             margin-left: 120px;
         }
+    }
+
+    .skills {
+        width: 450px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .baseboard {
@@ -754,6 +794,13 @@ body {
         margin-left: 130px;
     }
 
+    .skills {
+        width: 400px;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+    }
+
     .baseboard {
         height: 75px;
 
@@ -770,7 +817,6 @@ body {
             width: 400px;
         }
     }
-}
 
 @media screen and (max-width: 450px) {
     .topMenu {
@@ -835,6 +881,12 @@ body {
             margin-top: -70px;
             margin-left: 120px;
         }
+    }
+
+    .skills {
+        width: 300px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .baseboard {
