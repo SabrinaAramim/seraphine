@@ -371,8 +371,9 @@ body {
 
     img {
         width: 800px;
-        margin-left: 550px;
-        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     ul {
@@ -460,6 +461,12 @@ body {
             font-size: 40px;
             display: flex;
             justify-content: center;
+        }
+    }
+
+    .sobreMim {
+        img {
+            width: 750px;
         }
     }
 }
@@ -583,6 +590,24 @@ body {
             justify-content: center;
         }
     }
+
+    .sobreMim {
+        p {
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        img {
+            width: 600px;
+        }
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -666,6 +691,12 @@ body {
             justify-content: center;
         }
     }
+
+    .sobreMim {
+        img {
+            width: 500px;
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -731,6 +762,12 @@ body {
             font-size: 25px;
             display: flex;
             justify-content: center;
+        }
+    }
+
+    .sobreMim {
+        img {
+            width: 400px;
         }
     }
 }
@@ -808,6 +845,12 @@ body {
             font-size: 20px;
             display: flex;
             justify-content: center;
+        }
+    }
+
+    .sobreMim {
+        img {
+            width: 300px;
         }
     }
 }
