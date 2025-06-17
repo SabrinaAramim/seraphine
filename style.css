@@ -262,13 +262,12 @@ body {
         display: flex;
         align-items: center;
 
-        /* .skillsVideos {
-            height: 268px;
+        .skillsVideos {
             margin-bottom: 0px;
             text-indent: 0px;
             border: 5px solid #ba89ff;
             box-shadow: 5px 4px 8px #000000;
-        } */
+        }
 
         .explications {
             p {
@@ -371,8 +370,8 @@ body {
 }
 
 @media screen and (max-width: 1920px) {
-.veil{
-    background-image: url(Seraphine.jpg);
+    .veil {
+        background-image: url(Seraphine.jpg);
         z-index: -1;
         background-color: #fff;
         opacity: 0.3;
@@ -383,7 +382,7 @@ body {
         background-repeat: no-repeat;
         top: 0;
         left: 0;
-}
+    }
 
     .contents {
         width: 1347px;
@@ -396,6 +395,14 @@ body {
     .titleSkills {
         img {
             width: 50px;
+        }
+    }
+
+    .skillsVideos {
+        height: 272px;
+
+        video {
+            width: 400px;
         }
     }
 }
@@ -654,7 +661,7 @@ body {
 
 @media screen and (max-width: 700px) {
 
-.veil {
+    .veil {
         background-image: url(seraphine-pe.jpg);
         top: 0px;
         left: 0px;
@@ -901,6 +908,14 @@ body {
         width: 300px;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .skillsVideos {
+        height: 238px;
+
+        video {
+            width: 350px;
+        }
     }
 
     .baseboard {
