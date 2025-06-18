@@ -202,6 +202,7 @@ body {
 
     .champions {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
 
         p {
@@ -227,6 +228,7 @@ body {
 
     .names-champions:hover>p {
         opacity: 100%;
+        margin-top: -5px;
     }
 
     .piltovers {
@@ -388,10 +390,6 @@ body {
         width: 1347px;
     }
 
-    .names-champions:hover>p {
-        margin-top: 0px;
-    }
-
     .titleSkills {
         img {
             width: 50px;
@@ -447,10 +445,6 @@ body {
         h1 {
             width: 100%;
         }
-    }
-
-    .names-champions:hover>p {
-        margin-top: 0px;
     }
 
     .piltovers {
@@ -534,10 +528,6 @@ body {
         }
     }
 
-    .names-champions:hover>p {
-        margin-top: 0px;
-    }
-
     .piltovers {
         width: 800px;
 
@@ -597,14 +587,15 @@ body {
 
     .champions {
         width: 600px;
+        justify-content: space-around;
 
         img {
-            width: 70px;
+            width: 110px;
         }
     }
 
-    .names-champions:hover>p {
-        margin-top: 0px;
+    .names-champions {
+        margin-bottom: 30px;
     }
 
     .piltovers {
@@ -706,19 +697,17 @@ body {
         }
     }
 
-    .champions {
+.champions {
         width: 450px;
-        flex-direction: column;
-        align-items: flex-start;
+        justify-content: space-around;
 
         img {
-            width: 130px;
+            width: 110px;
         }
     }
 
-    .names-champions:hover>p {
-        margin-top: -90px;
-        margin-left: 160px;
+    .names-champions {
+        margin-bottom: 30px;
     }
 
     .piltovers {
@@ -803,16 +792,15 @@ body {
 
     .champions {
         width: 400px;
-        flex-direction: column;
+        justify-content: space-around;
 
         img {
-            width: 100px;
+            width: 110px;
         }
     }
 
-    .names-champions:hover>p {
-        margin-top: -70px;
-        margin-left: 130px;
+    .names-champions {
+        margin-bottom: 30px;
     }
 
     .skills {
@@ -877,16 +865,15 @@ body {
 
     .champions {
         width: 300px;
-        flex-direction: column;
+        justify-content: space-around;
 
         img {
             width: 100px;
         }
     }
 
-    .names-champions:hover>p {
-        margin-top: -70px;
-        margin-left: 130px;
+    .names-champions {
+        margin-bottom: 30px;
     }
 
     .piltovers {
