@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.sobreMim {
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        background-color: rgb(188 83 243);
+        width: 100%;
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 40px;
+        text-align: justify;
+        margin-left: 80px;
+        margin-right: 80px;
+        text-indent: 30px;
+    }
+
+    img {
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        font-size: 40px;
+        text-align: justify;
+        margin-left: 80px;
+        margin-right: 80px;
+
+        .lista {
+            text-decoration: underline;
+            color: #b348ff;
+        }
+    }
+}

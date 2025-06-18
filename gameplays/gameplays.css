@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.gameplay {
+    .videosHyu {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        color: #b348ff;
+    }
+}

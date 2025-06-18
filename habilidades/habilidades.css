@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.titleSkills {
+    display: inline;
+    align-items: center;
+
+    img {
+        position: absolute;
+        z-index: 2;
+        margin-left: 475px;
+    }
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+
+    .skillsVideos {
+        margin-bottom: 0px;
+        text-indent: 0px;
+        border: 5px solid #ba89ff;
+        box-shadow: 5px 4px 8px #000000;
+    }
+
+    .explications {
+        p {
+            margin: 30px;
+        }
+
+    }
+}
