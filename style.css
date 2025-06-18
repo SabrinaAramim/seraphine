@@ -233,6 +233,7 @@ body {
 
     .piltovers {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
 
         p {
@@ -527,12 +528,15 @@ body {
             width: 100px;
         }
     }
+.names-champions {
+        margin-bottom: 30px;
+    }
 
     .piltovers {
         width: 800px;
 
         img {
-            width: 70px;
+            width: 100px;
         }
     }
 
@@ -594,22 +598,15 @@ body {
         }
     }
 
-    .names-champions {
-        margin-bottom: 30px;
-    }
-
     .piltovers {
         width: 600px;
-        flex-direction: column;
-        align-items: flex-start;
 
         img {
             width: 100px;
         }
 
         .names-champions:hover>p {
-            margin-top: -70px;
-            margin-left: 120px;
+            margin-top: -7px;
         }
     }
 
@@ -702,7 +699,7 @@ body {
         justify-content: space-around;
 
         img {
-            width: 110px;
+            width: 100px;
         }
     }
 
@@ -711,17 +708,14 @@ body {
     }
 
     .piltovers {
-        width: 450px;
-        flex-direction: column;
-        align-items: flex-start;
+        width: 400px;
 
         img {
-            width: 90px;
+            width: 100px;
         }
 
         .names-champions:hover>p {
-            margin-top: -70px;
-            margin-left: 120px;
+            margin-top: -7px;
         }
     }
 
@@ -878,16 +872,13 @@ body {
 
     .piltovers {
         width: 300px;
-        flex-direction: column;
-        align-items: flex-start;
 
         img {
-            width: 90px;
+            width: 100px;
         }
 
         .names-champions:hover>p {
-            margin-top: -70px;
-            margin-left: 120px;
+            margin-top: -7px;
         }
     }
 
