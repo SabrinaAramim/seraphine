@@ -531,8 +531,10 @@ body {
             width: 100px;
         }
     }
-.names-champions {
+
+    .names-champions {
         margin-bottom: 30px;
+        padding: 10px;
     }
 
     .piltovers {
@@ -599,6 +601,11 @@ body {
         img {
             width: 110px;
         }
+    }
+
+    .names-champions {
+        margin-bottom: 30px;
+        padding: 10px;
     }
 
     .piltovers {
@@ -697,7 +704,7 @@ body {
         }
     }
 
-.champions {
+    .champions {
         width: 450px;
         justify-content: space-around;
 
