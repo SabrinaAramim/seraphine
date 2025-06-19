@@ -155,7 +155,7 @@ body {
 
     a:hover {
         text-decoration: underline;
-        color: #daa520;
+        color: rgb(218, 165, 32);
         text-shadow: 2px 2px 4px rgb(9, 9, 9);
     }
 }
