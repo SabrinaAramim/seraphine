@@ -4,6 +4,11 @@
     .videosHyu {
         display: flex;
         justify-content: center;
+        max-width: 560px;
+        min-width: 290px;
+        margin: auto;
+        border: 5px solid #ba89ff;
+        box-shadow: 5px 4px 8px #000000;
     }
 
     a {

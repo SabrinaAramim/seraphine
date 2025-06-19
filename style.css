@@ -14,6 +14,8 @@ body {
     justify-content: center;
     max-width: 900px;
     width: 100%;
+    border: 5px solid #ba89ff;
+    box-shadow: 5px 4px 8px #000000;
 }
 
 .topMenu {

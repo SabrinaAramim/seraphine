@@ -42,5 +42,7 @@
 
     img {
         margin: auto;
+        border: 5px solid #ba89ff;
+        box-shadow: 5px 4px 8px #000000;
     }
 }
