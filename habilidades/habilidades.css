@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root{
+    --destaque: #ba89ff;
+    --sombra: #00000072;
+}
+
 .titleSkills {
     display: inline;
     align-items: center;
@@ -18,14 +23,13 @@
     .skillsVideos {
         margin-bottom: 0px;
         text-indent: 0px;
-        border: 5px solid #ba89ff;
-        box-shadow: 5px 4px 8px #000000;
+        border: 5px solid var(--destaque);
+        box-shadow: 5px 4px 8px var(--sombra);
     }
 
     .explications {
         p {
             margin: 30px;
         }
-
     }
 }

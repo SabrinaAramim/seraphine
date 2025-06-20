@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+:root{
+    --destaque4: #bc53f3;
+}
+
 .sobreMim {
     h1 {
         text-align: center;
         font-weight: 400;
-        background-color: rgb(188 83 243);
+        background-color: var(--destaque4);
         width: 100%;
         font-size: 60px;
     }
@@ -32,7 +36,7 @@
 
         .lista {
             text-decoration: underline;
-            color: #b348ff;
+            color: var(--destaque4);
         }
     }
 }

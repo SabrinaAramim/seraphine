@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root{
+    --destaque: #ba89ff;
+    --destaque2: #ff69b4;
+    --destaque3: #daa520;
+    --destaque4: #bc53f3;
+    --corfonte: #000000;
+    --sombra: #00000072;
+}
+
 body {
     margin: 0;
     background-size: 1458px;
@@ -14,12 +23,12 @@ body {
     justify-content: center;
     max-width: 900px;
     width: 100%;
-    border: 5px solid #ba89ff;
-    box-shadow: 5px 4px 8px #000000;
+    border: 5px solid var(--destaque);
+    box-shadow: 5px 4px 8px var(--corfonte);
 }
 
 .topMenu {
-    background-image: linear-gradient(90deg, #ba89ff, #ff69b4);
+    background-image: linear-gradient(90deg, var(--destaque), var(--destaque2));
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,14 +53,14 @@ body {
     }
 
     a {
-        color: black;
+        color: var(--corfonte);
         text-decoration: none;
     }
 
     a:hover {
         text-decoration: underline;
-        color: #daa520;
-        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+        color: var(--destaque3);
+        text-shadow: 2px 2px 4px var(--corfonte);
     }
 }
 
@@ -64,19 +73,19 @@ body {
     width: 320px;
     margin-top: 50px;
     margin-left: 30px;
-    border: 5px solid #b348ff;
-    box-shadow: 5px 4px 8px #000000;
+    border: 5px solid var(--destaque4);
+    box-shadow: 5px 4px 8px var(--corfonte);
     position: fixed;
 
     a {
-        color: black;
+        color: var(--corfonte);
         text-decoration: none;
     }
 
     a:hover {
         text-decoration: underline;
-        color: #daa520;
-        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+        color: var(--destaque3);
+        text-shadow: 2px 2px 4px var(--corfonte);
     }
 
     ul {
@@ -110,7 +119,7 @@ body {
     h1 {
         text-align: center;
         font-weight: 400;
-        background-color: rgb(188 83 243);
+        background-color: var(--destaque4);
     }
 
     p {
@@ -120,7 +129,7 @@ body {
 
     h2 {
         font-weight: 400;
-        text-decoration: underline rgb(188 83 243);
+        text-decoration: underline var(--destaque4);
     }
 
     ul {
@@ -131,7 +140,7 @@ body {
 }
 
 .baseboard {
-    background-image: linear-gradient(90deg, #ba89ff, #ff69b4);
+    background-image: linear-gradient(90deg, var(--destaque), var(--destaque2));
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -149,13 +158,13 @@ body {
 
     a {
         font-size: 30px;
-        color: black;
+        color: var(--corfonte);
         text-decoration: none;
     }
 
     a:hover {
         text-decoration: underline;
-        color: rgb(218, 165, 32);
-        text-shadow: 2px 2px 4px rgb(9, 9, 9);
+        color: var(--destaque3);
+        text-shadow: 2px 2px 4px var(--corfonte);
     }
 }

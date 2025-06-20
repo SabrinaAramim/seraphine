@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root{
+    --destaque: #ba89ff;
+    --destaque4: #bc53f3;
+    --sombra: #00000072;
+}
+
 .gameplay {
     .videosHyu {
         display: flex;
@@ -7,11 +13,11 @@
         max-width: 560px;
         min-width: 290px;
         margin: auto;
-        border: 5px solid #ba89ff;
-        box-shadow: 5px 4px 8px #000000;
+        border: 5px solid var(--destaque);
+        box-shadow: 5px 4px 8px var(--sombra);
     }
 
     a {
-        color: #b348ff;
+        color: var(--destaque4);
     }
 }
